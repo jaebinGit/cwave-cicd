@@ -4,7 +4,7 @@ metadata:
   name: mysql-svc
 spec:
   selector:
-    app: mysql
+    name: mysql
   ports:
     - name: mysql-svc
       protocol: TCP
